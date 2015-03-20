@@ -1,13 +1,14 @@
 # Maintainer: Augusto Hack <hack.augusto@gmail.com>
 pkgname=perftools-git
 pkgver=0.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Performance analysis tools based on Linux perf_events (aka perf) and ftrace"
 arch=('any')
 url="https://github.com/brendangregg/perf-tools"
 license=('GPL')
 depends=('bash' 'perl' 'procps-ng' 'awk' 'grep')
 makedepends=('git')
+optdepends=('perf')
 
 _gitroot='https://github.com/brendangregg/perf-tools.git'
 _gitname=perftools
