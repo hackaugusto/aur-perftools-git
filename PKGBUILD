@@ -8,9 +8,6 @@ url="https://github.com/brendangregg/perf-tools"
 license=('GPL')
 depends=('bash' 'perl' 'procps-ng' 'awk' 'grep')
 makedepends=('git')
-source=()
-noextract=()
-md5sums=() #generate with 'makepkg -g'
 
 _gitroot='https://github.com/brendangregg/perf-tools.git'
 _gitname=perftools
